@@ -1,0 +1,23 @@
+# Maven
+target/
+*.jar
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# XAMPP generated runtime files
+progress.json
+report.json
+links.json
+*.scan
+*.lock

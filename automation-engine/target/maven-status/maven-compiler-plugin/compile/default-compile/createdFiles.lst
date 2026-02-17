@@ -1,0 +1,8 @@
+com\webcheck360\util\HttpStatusUtil.class
+com\webcheck360\model\ImageResult.class
+com\webcheck360\util\JsonReportWriter.class
+com\webcheck360\model\LinkResult.class
+com\webcheck360\automationengine\App.class
+com\webcheck360\checker\ImageHealthChecker.class
+com\webcheck360\model\ScanReport.class
+com\webcheck360\crawler\WebsiteCrawler.class

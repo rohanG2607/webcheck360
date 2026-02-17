@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.webcheck360.automationengine.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s -- in com.webcheck360.automationengine.AppTest
