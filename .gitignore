@@ -15,9 +15,20 @@ target/
 .DS_Store
 Thumbs.db
 
-# XAMPP generated runtime files
+# XAMPP / Runtime files
 progress.json
 report.json
 links.json
 *.scan
 *.lock
+
+# Node (if any JS libs used)
+node_modules/
+
+# Environment / Secrets
+.env
+ai_config.php
+
+# IDE (optional but good)
+.vscode/
+.idea/
