@@ -1,0 +1,139 @@
+/* ===== LOGIN PAGE ===== */
+
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+    width: 360px;
+    padding: 40px;
+    border-radius: 14px;
+
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(148,163,184,0.2);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.login-card h1 {
+    margin-bottom: 6px;
+    color: #22c55e;
+}
+
+.subtitle {
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: #94a3b8;
+}
+
+.login-card label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+
+    border-radius: 6px;
+    border: 1px solid #334155;
+
+    background: #020617;
+    color: #e2e8f0;
+}
+
+.login-card input:focus {
+    outline: none;
+    border-color: #22c55e;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #22c55e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.login-card button:hover {
+    background: #16a34a;
+}
+
+.error-box {
+    background: rgba(239,68,68,0.15);
+    color: #f87171;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.login-footer {
+    margin-top: 25px;
+    font-size: 11px;
+    color: #64748b;
+}
+
+.success-box {
+    background:#e8f5e9;
+    color:#2e7d32;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:6px;
+}
+
+.error-box {
+    background:#ffebee;
+    color:#c62828;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:6px;
+}
+
+/* Password Field Wrapper */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Password Input */
+.password-wrapper input {
+    width: 100%;
+    padding-right: 45px; /* space for eye */
+}
+
+/* Eye Icon */
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+    transition: 0.2s;
+}
+
+.toggle-password:hover {
+    color: #4fd1c5;
+}

@@ -1,0 +1,94 @@
+.scan-box{
+background:#0f172a;
+border:1px solid #1e293b;
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
+}
+
+.scan-box h2{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.scan-input{
+width:100%;
+padding:12px;
+border-radius:6px;
+border:1px solid #1e293b;
+background:#020617;
+color:#e2e8f0;
+margin-bottom:15px;
+}
+
+.scan-actions{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+/* Buttons */
+.action-btn{
+padding:10px 18px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+background:#22c55e;
+color:white;
+transition:.3s;
+}
+
+.action-btn:hover{
+background:#16a34a;
+}
+
+.secondary{
+background:#334155;
+}
+
+.secondary:hover{
+background:#475569;
+}
+
+.danger{
+background:#ef4444;
+}
+
+.danger:hover{
+background:#dc2626;
+}
+
+/* Progress */
+.progress-card{
+background:#020617;
+border:1px solid #1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.progress-bar{
+height:18px;
+background:#1e293b;
+border-radius:20px;
+overflow:hidden;
+margin-top:10px;
+}
+
+.progress-fill{
+height:100%;
+width:0%;
+background:#22c55e;
+transition:width .4s ease;
+}
+
+.progress-text{
+margin-top:10px;
+color:#94a3b8;
+}
+
+.current-url{
+margin-top:10px;
+font-size:13px;
+color:#38bdf8;
+word-break:break-all;
+}
