@@ -1,34 +1,53 @@
-# Maven
-target/
-*.jar
-*.class
+# ======================================
+# WebCheck360 — Production .gitignore
+# ======================================
 
-# Eclipse
+# ── Runtime Scan Files ──
+progress.json
+report.json
+links.json
+*.flag
+*.lock
+
+# ── Environment & Secrets ──
+.env
+.env.local
+.env.production
+
+# ── Logs & Cache ──
+logs/
+cache/
+storage/logs/
+storage/cache/
+storage/generated_reports/
+storage/exports/
+
+# ── Uploads ──
+public/uploads/
+
+# ── Java / Maven Build ──
+crawler/java/**/target/
+crawler/java/**/*.class
+*.jar
+
+# ── IDE & Editor ──
+.vscode/
+.idea/
 .project
 .classpath
 .settings/
 
-# Logs
-*.log
-
-# OS
+# ── OS Files ──
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# XAMPP / Runtime files
-progress.json
-report.json
-links.json
-*.scan
-*.lock
-
-# Node (if any JS libs used)
+# ── Node (if any JS libs used) ──
 node_modules/
 
-# Environment / Secrets
-.env
-ai_config.php
+# ── Backups ──
+*.bak
+*.backup
 
-# IDE (optional but good)
-.vscode/
-.idea/
+# ── Logs ──
+*.log

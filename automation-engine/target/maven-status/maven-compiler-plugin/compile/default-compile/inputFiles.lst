@@ -1,8 +1,0 @@
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\automationengine\App.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\checker\ImageHealthChecker.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\crawler\WebsiteCrawler.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\model\ImageResult.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\model\LinkResult.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\model\ScanReport.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\util\HttpStatusUtil.java
-F:\Eclipce\WEB_CHECK360\automation-engine\src\main\java\com\webcheck360\util\JsonReportWriter.java
