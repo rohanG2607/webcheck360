@@ -51,3 +51,6 @@ node_modules/
 
 # ── Logs ──
 *.log
+
+# ── API Config files ──
+app/config/ai_config.php
